@@ -24,14 +24,15 @@
 	justify-content: center;
 	align-items: center;
 	text-align: center;
-	padding: 10px 25px;
+	padding: 10px 50px;
 	// min-width: 144px;
 	// min-height: 36px;
-	font-size: 12px;
+	color: #E83B68;
+	font-size: 22px;
 	font-weight: 400;
-	color: #000;
-	background: #FFE417;
-	border-radius: 5px;
+	line-height: 125%;
+	border-radius: 30px;
+	background: #FFF;
 
 	&:hover {}
 
