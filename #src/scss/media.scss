@@ -1,7 +1,31 @@
 //<Адаптив>===========================================================================================================================================
-@media (max-width: 1200px) {
+@media (max-width: 1450px) {
 	._container {
 		padding: 0 10px;
+	}
+}
+
+@media (max-width: 1280px) {
+	.main-menu a {
+		padding: 3px 0px 3px 55px;
+	}
+}
+
+@media (max-width: 1024px) {
+	.main-menu a {
+		font-size: 14px;
+		padding: 3px 0px 3px 25px;
+	}
+}
+
+@media (max-width: 812px) {
+	.header__logo {
+		flex: 0 0 180px;
+		height: 50px;
+	}
+
+	.header__phone {
+		font-size: 18px;
 	}
 }
 
@@ -18,56 +42,30 @@
 	}
 
 	.logo-icon {
-		flex: 0 0 45px;
-		height: 15px;
-	}
-
-	.logo-icon:before {
-		flex: 0 0 100%;
-		height: 100%;
-	}
-
-	.logo-icon p {
-		display: none;
+		flex: 0 0 100px;
+		height: 35px;
 	}
 
 	.icon-menu {
 		display: flex;
 	}
 
-	.header__menu-block {
-		margin-right: 15px;
-	}
-
-	.header__menu-list {
+	.main-menu {
 		display: none;
-	}
-
-	.header__search form {
-		max-height: 30px;
-	}
-
-	.header__contacts {
-		flex: 0 0 133px;
-		margin-left: auto;
-		margin-right: 15px;
 	}
 
 	.header__phone {
-		font-size: 18px;
-	}
-
-	.header__time-phone {
-		display: none;
-	}
-
-	.header__popup-link {
-		display: none;
+		font-size: 16px;
+		margin-top: 3px;
+		margin-left: auto;
+		margin-right: 15px;
 	}
 
 	.header__popup-link_mob {
 		display: flex;
 		margin-left: 0;
+		font-size: 16px;
+		margin-top: 10px;
 	}
 
 	.section {
