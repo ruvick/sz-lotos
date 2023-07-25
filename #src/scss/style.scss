@@ -271,6 +271,8 @@ h4 {
 	justify-content: space-between;
 }
 
+.info__column {}
+
 .info__item {}
 
 .item-info {
@@ -424,6 +426,11 @@ h4 {
 
 .contacts-sec__column {
 	flex: 1 1 auto;
+	margin-right: 35px;
+
+	&:last-child {
+		margin-right: 0;
+	}
 }
 
 .contacts-sec__list {}
