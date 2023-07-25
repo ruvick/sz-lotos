@@ -3869,6 +3869,9 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
     height: 18px;
     margin-right: 5px;
   }
+  .footer__column:last-child {
+    margin-bottom: 0;
+  }
 }
 @media (max-width: 700px) {
   .mob-menu {
@@ -3943,6 +3946,13 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
   }
   .popup__form-btn {
     width: 100%;
+  }
+  .header__phone {
+    margin-right: 10px;
+    font-size: 0;
+  }
+  .header__phone svg {
+    height: 23px;
   }
 }
 @media (max-width: 345px) {
