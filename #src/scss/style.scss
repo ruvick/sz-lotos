@@ -456,10 +456,15 @@ h4 {
 }
 
 .list-contacts-sec__item {
+	font-weight: 900;
 	margin-bottom: 15px;
 
 	&:last-child {
 		margin-bottom: 0;
+	}
+
+	span {
+		font-weight: 400;
 	}
 }
 

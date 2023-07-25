@@ -3599,10 +3599,14 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 }
 
 .list-contacts-sec__item {
+  font-weight: 900;
   margin-bottom: 15px;
 }
 .list-contacts-sec__item:last-child {
   margin-bottom: 0;
+}
+.list-contacts-sec__item span {
+  font-weight: 400;
 }
 
 .list-contacts-sec__tel-block {
