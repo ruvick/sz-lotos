@@ -259,6 +259,11 @@ h4 {
   width: 100%;
 }
 
+.purple-bg {
+  color: #fff;
+  background: #DC7C93;
+}
+
 .switch-block__label {
   position: relative;
   display: inline-block;
@@ -3485,6 +3490,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 }
 
 .order-sec__descp {
+  padding-top: 20px;
   padding-left: 110px;
 }
 
@@ -3513,9 +3519,86 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 }
 
 .order-sec__btn {
-  color: #fff;
-  background: #DC7C93;
   margin-top: 38px;
+}
+
+.questions__inner {
+  position: relative;
+}
+
+.box-questions {
+  padding: 28px 68px 62px 68px;
+  border-radius: 30px;
+  background: #E6E6E6;
+}
+
+.box-questions__descp {
+  max-width: 620px;
+  width: 100%;
+  z-index: 5;
+  position: relative;
+}
+
+.box-questions__title {
+  margin-bottom: 63px;
+}
+
+.box-questions__subtitle {
+  font-size: 22px;
+  font-weight: 400;
+}
+
+.box-questions__btn {
+  margin-top: 63px;
+}
+
+.questions__img {
+  position: absolute;
+  top: -45%;
+  right: -8%;
+  max-width: 750px;
+  height: 605px;
+  overflow: hidden;
+}
+
+.contacts-sec__inner {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contacts-sec__column {
+  flex: 1 1 auto;
+}
+
+.list-contacts-sec__title {
+  font-size: 24px;
+  font-weight: 800;
+  margin-bottom: 15px;
+}
+
+.purple-color {
+  color: #DC7C93;
+}
+
+.list-contacts-sec__row {
+  margin-bottom: 35px;
+}
+.list-contacts-sec__row:last-child {
+  margin-bottom: 0;
+}
+
+.list-contacts-sec__item {
+  margin-bottom: 15px;
+}
+.list-contacts-sec__item:last-child {
+  margin-bottom: 0;
+}
+
+.list-contacts-sec__tel-block {
+  margin-bottom: 15px;
+}
+.list-contacts-sec__tel-block .list-contacts-sec__item {
+  margin-bottom: 3px;
 }
 
 @media (max-width: 1200px) {
