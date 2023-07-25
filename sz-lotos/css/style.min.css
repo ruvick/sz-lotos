@@ -3138,7 +3138,15 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 }
 
 .header__phone {
+  display: flex;
+  align-items: center;
   white-space: nowrap;
+}
+.header__phone svg {
+  flex: 0 0 11px;
+  width: 11px;
+  height: 25px;
+  margin-right: 10px;
 }
 
 .icon-menu {
@@ -3854,6 +3862,12 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
   }
   .box-questions {
     padding: 35px;
+  }
+  .header__phone svg {
+    flex: 0 0 11px;
+    width: 11px;
+    height: 18px;
+    margin-right: 5px;
   }
 }
 @media (max-width: 700px) {

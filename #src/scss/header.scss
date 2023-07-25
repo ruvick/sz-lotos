@@ -59,7 +59,16 @@
 }
 
 .header__phone {
+	display: flex;
+	align-items: center;
 	white-space: nowrap;
+
+	svg {
+		flex: 0 0 11px;
+		width: 11px;
+		height: 25px;
+		margin-right: 10px;
+	}
 }
 
 // =============================================================
