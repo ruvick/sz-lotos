@@ -79,6 +79,22 @@
 	::-webkit-scrollbar {
 		display: none;
 	}
+
+	.main-banner {
+		min-height: auto;
+
+		.nuar_blk {
+			background-color: #00000065;
+		}
+	}
+
+	.main-banner__descp {
+		max-width: 100%;
+	}
+
+	.main-banner ._container {
+		justify-content: start;
+	}
 }
 
 @media (max-width: 700px) {
@@ -102,14 +118,6 @@
 }
 
 @media (max-width: 515px) {
-	.header__contacts {
-		display: none;
-	}
-
-	.header__mob-phone-icon {
-		display: flex;
-		margin-right: 25px;
-	}
 
 	.popup__img {
 		display: none;
@@ -117,6 +125,24 @@
 
 	.popup__form-block {
 		flex: 0 1 100%;
+	}
+
+	.main-banner__main-title {
+		font-size: 36px;
+		margin-bottom: 10px;
+	}
+
+	.main-banner__title {
+		font-size: 26px;
+		margin-bottom: 10px;
+	}
+
+	.main-banner__subtitle {
+		font-size: 16px;
+	}
+
+	.btn {
+		width: 100%;
 	}
 }
 
